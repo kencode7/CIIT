@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title> CIIT - Compusoft Institute of Information Technology </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" media="screen" href="CSS/bootstrap.min.css" />
+            <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    </head>
+    <body>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title text-center">APPLICATION FORM</h4>
+                <button type="button" class="close" data-dismiss="modal" class="text-left">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="container formsheet">
+                            <div class="form-group">
+                                <label for="Fullname">FULLNAME:</label>
+                                <span><i class="fa fa-dollar"></i></span>
+                                <input type="text" name="fullname" class="form-control" placeholder="Enter Fullname">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">EMAIL ADDRESS:</label>
+                                <input type="text" name="email" class="form-control" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">PHONE:</label>
+                                <input type="number" name="phone" class="form-control" placeholder="Enter phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="course">CHOOSE A COURSE:</label>
+                                <select name="course" class="form-control">
+                                    <option>Computer Basics</option>
+                                    <option>Graphics Design</option>
+                                    <option>Programming</option>
+                                    <option>Web design</option>
+                                    <option>Web design</option>
+                                    <option>Web design</option>
+                                    <option>Web design</option>
+                                    <option>Web design</option>
+                                    <option>Web design</option>
+                                    <option>Web design</option>
+                                    <option>Web design</option>
+                                    <option>Web design</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact">CONTACT ADDRESS:</label>
+                                <input type="text" name="address" class="form-control" placeholder="Enter contact address">
+                            </div>
+                            <div class="form-group">
+                                <label for="institution"> INSTITUTION ATTENDED:</label>
+                                <input type="text" name="institution" class="form-control" placeholder="Enter institution">
+                            </div>
+                            <div  class="form-group">
+                                <label for="qualification">ACADEMIC QUALIFICATION:</label>
+                                <input type="text" name="qualification" class="form-control" placeholder="Enter academic qualification">
+                            </div>
+                            <div class="form-group">
+                                <label for="state">STATE OF ORIGIN:</label>
+                                <select name="state" class="form-control">
+                                    <option></option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="lga">L.G.A:</label>
+                                <select name="lga" class="form-control">
+                                    <option></option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="date"> DATE OF BIRTH:</label>
+                                <input type="date" name="dob" class="form-control" placeholder="DATE OF BIRTH">
+                            </div>
+                            <div class="form-group">
+                                <label for="date"> MARITAL STATUS:</label>
+                                <select name="status" class="form-control">
+                                    <option>Single</option>
+                                    <option>Married</option>
+                                    <option>Divorced</option>
+                                    <option>Widowed</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">SEX:</label>
+                                <div class="radio">
+                                    <label><input type="radio" name="gender">Male</label>
+                                </div>
+                                <div class="radio">
+                                    <label><input type="radio" name="gender">Female</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="kin">NEXT OF KIN:</label>
+                                <input type="text" name="kin" class="form-control" placeholder="Enter next of kin">
+                            </div>
+                            <div class="form-group">
+                                <label for="kincontact">ADDRESS OF NEXT OF KIN:</label>
+                                <input type="text" name="kinaddress" class="form-control" placeholder="Enter address of next of kin">
+                            </div>
+                            <div class="form-group">
+                                <label for="kinrelationship">RELATIONSHIP:</label>
+                                <input type="text" name="kinrelationship" class="form-control" placeholder="Relationship">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">PHONE:</label>
+                                <input type="number" name="kinphone" class="form-control" placeholder="Enter phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="publicity"> How did you hear about COMPUSOFT?</label>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="publicity" value="">Hand flier</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="publicity" value="">Social media</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="publicity" value="">NYSC Orientation camp</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="publicity" value="">Website</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="publicity" value="">Radio Ads</label>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-center">
+                            <input type="submit" class="btn btn-default submit-btn" name="subbtn" value="SUBMIT">
+                        </p>
+                    </form>  
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        
+            </div>
+        </div>
+       
+       
+       
+        
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>
